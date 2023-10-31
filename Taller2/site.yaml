@@ -8,7 +8,7 @@
   roles:
    - role: apache2
 
-- hosts: servidores_bbdd
+- hosts: servidores_bd
   become: true
   roles:
    - role: mariadb
