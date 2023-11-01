@@ -8,7 +8,7 @@ all:
           ansible_ssh_private_key_file: /home/debian/.ssh/id_rsa
     servidores_bd:
       hosts:
-        ansiblebbdd: 
-          ansible_ssh_host: 10.0.3.212
+        ansiblebbdd2: 
+          ansible_ssh_host: 192.168.122.97
           ansible_ssh_user: debian
           ansible_ssh_private_key_file: /home/debian/.ssh/id_rsa
